@@ -161,7 +161,7 @@ const CaseStudies: React.FC = () => {
                       height="384"
                       loading="lazy"
                       decoding="async"
-                      fetchPriority="low"
+                       fetchpriority="low"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                     <div className="absolute top-6 left-6">

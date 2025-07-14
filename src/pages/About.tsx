@@ -68,7 +68,7 @@ const About: React.FC = () => {
                 height="600"
                 loading="lazy"
                 decoding="async"
-                fetchPriority="low"
+                fetchpriority="low"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl"></div>
             </div>
