@@ -50,7 +50,7 @@ const TypewriterEffect: React.FC<TypewriterEffectProps> = ({
   }, [currentText, currentTextIndex, isDeleting, texts, speed, deleteSpeed, pauseDuration]);
 
   return (
-    <span className={className}>
+    <span className={`${className} inline-block min-w-0`} style={{ minWidth: '300px' }}>
       {currentText}
       <span className="animate-pulse">|</span>
     </span>
