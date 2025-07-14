@@ -116,7 +116,7 @@ const CaseStudiesSection: React.FC = () => {
                           height="300"
                           loading="lazy"
                           decoding="async"
-                          fetchPriority="low"
+                          fetchpriority="low"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-lg"></div>
                       </div>
