@@ -21,7 +21,7 @@ const HeroSection: React.FC = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight min-h-[120px] md:min-h-[180px] lg:min-h-[210px] flex flex-col justify-center">
+          <div className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight min-h-[120px] md:min-h-[180px] lg:min-h-[210px] flex flex-col justify-center">
             <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
               Révolutionnez votre marketing avec
             </span>
@@ -32,7 +32,7 @@ const HeroSection: React.FC = () => {
                 className="bg-gradient-to-r from-cyan-400 via-magenta-400 to-red-400 bg-clip-text text-transparent"
               />
             </span>
-          </h1>
+          </div>
           
           <p className="text-xl md:text-2xl text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed">
             Nous transformons vos données en croissance exponentielle grâce à l'intelligence artificielle 
