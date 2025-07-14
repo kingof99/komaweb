@@ -62,13 +62,14 @@ const HeroSection: React.FC = () => {
         </div>
 
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center min-h-[100px]">
           {[
             { number: "500+", label: "Projets réalisés" },
             { number: "250%", label: "ROI moyen" },
             { number: "50+", label: "Clients satisfaits" },
             { number: "24/7", label: "Support IA" }
           ].map((stat, index) => (
-            <div key={index} className="group">
+            <div key={index} className="group transform-gpu">
               <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-cyan-400 to-magenta-400 bg-clip-text text-transparent mb-2">
                 {stat.number}
               </div>
