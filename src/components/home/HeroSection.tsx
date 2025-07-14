@@ -20,8 +20,7 @@ const HeroSection: React.FC = () => {
             <span className="text-sm text-gray-300">Agence Marketing IA • Paris</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          <div className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight min-h-[120px] md:min-h-[180px] lg:min-h-[210px] flex flex-col justify-center">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight min-h-[120px] md:min-h-[180px] lg:min-h-[210px] flex flex-col justify-center">
             <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
               Révolutionnez votre marketing avec
             </span>
@@ -32,7 +31,7 @@ const HeroSection: React.FC = () => {
                 className="bg-gradient-to-r from-cyan-400 via-magenta-400 to-red-400 bg-clip-text text-transparent"
               />
             </span>
-          </div>
+          </h1>
           
           <p className="text-xl md:text-2xl text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed">
             Nous transformons vos données en croissance exponentielle grâce à l'intelligence artificielle 
@@ -61,7 +60,6 @@ const HeroSection: React.FC = () => {
           </Link>
         </div>
 
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center min-h-[100px]">
           {[
             { number: "500+", label: "Projets réalisés" },
@@ -83,7 +81,3 @@ const HeroSection: React.FC = () => {
 };
 
 export default HeroSection;
-  )
-}
-  )
-}
