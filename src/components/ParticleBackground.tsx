@@ -39,7 +39,8 @@ const ParticleBackground: React.FC = () => {
 
     const createParticles = () => {
       particles = [];
-      const particleCount = Math.min(50, Math.floor((canvas.width * canvas.height) / 12000));
+      // Reduce particle count for better performance
+      const particleCount = Math.min(30, Math.floor((canvas.width * canvas.height) / 15000));
       
       for (let i = 0; i < particleCount; i++) {
         particles.push({
